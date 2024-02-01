@@ -1,0 +1,10 @@
+.hero-slider img {
+    height: 90vh;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.hero-slider img.last {
+    object-position: top;
+    filter: brightness(80%);
+}
